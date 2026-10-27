@@ -1,0 +1,11 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local vector store (rebuild with: python build_knowledge_base.py)
+chroma_db/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
